@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F67231AB1E8F703000BC7B8B"
+               BuildableName = "AlternateAppIcon.app"
+               BlueprintName = "AlternateAppIcon"
+               ReferencedContainer = "container:AlternateAppIcon.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F67231C41E8F703000BC7B8B"
+               BuildableName = "AlternateAppIconTests.xctest"
+               BlueprintName = "AlternateAppIconTests"
+               ReferencedContainer = "container:AlternateAppIcon.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F67231CF1E8F703000BC7B8B"
+               BuildableName = "AlternateAppIconUITests.xctest"
+               BlueprintName = "AlternateAppIconUITests"
+               ReferencedContainer = "container:AlternateAppIcon.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F67231AB1E8F703000BC7B8B"
+            BuildableName = "AlternateAppIcon.app"
+            BlueprintName = "AlternateAppIcon"
+            ReferencedContainer = "container:AlternateAppIcon.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F67231AB1E8F703000BC7B8B"
+            BuildableName = "AlternateAppIcon.app"
+            BlueprintName = "AlternateAppIcon"
+            ReferencedContainer = "container:AlternateAppIcon.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F67231AB1E8F703000BC7B8B"
+            BuildableName = "AlternateAppIcon.app"
+            BlueprintName = "AlternateAppIcon"
+            ReferencedContainer = "container:AlternateAppIcon.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
